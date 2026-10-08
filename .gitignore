@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+.venv-*/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Manim generated files
+media/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.pdf
+
+# Local environment
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
